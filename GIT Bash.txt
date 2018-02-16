@@ -1,0 +1,130 @@
+Piyoosh@ADMINIB-ERABA7C MINGW64 ~
+$ cd
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 ~
+$ cd /c
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c
+$ ls
+'$Recycle.Bin'/                          'notes - Copy'/
+'$WINDOWS.~BT'/                           osp.ini
+'$Windows.~WS'/                           pagefile.sys
+ {54B532E9-4551-40A1-8AD8-158286114C9E}   PerfLogs/
+ 11.1.7.003_00.sdb                        PGPWDE00
+ 1d9d6fe3516808eda8e66d6a4901/            PGPWDE01
+ 2b34863f2f2ee7dd47eb4e73/                PGPWDE02
+ Anaconda3/                               Piyoosh/
+ appname                                  places.sqlite
+'Big Data POC'/                           pnp/
+ Boot/                                    pnp64.xml
+ bootmgr                                 'Program Files'/
+ BOOTSECT.BAK                            'Program Files (x86)'/
+ Config.Msi/                              ProgramData/
+ cygwin64/                                Python27/
+'Documents and Settings'@                 Recovery/
+ Drivers/                                 sdwork/
+ EFI/                                     SEP_INST.log
+ fixletp2p/                               servers.ini
+ found.000/                               setupisam.log
+ google-python-exercises/                 student/
+ hiberfil.sys                             SUService.log
+ i387/                                    swd/
+ INSTALL.LOG                             'System Volume Information'/
+ Intel/                                   temp/
+ lai.exe*                                 tmp/
+ Logs/                                    Users/
+ msdia80.dll*                             w764drive/
+ MSOCache/                                Windows/
+ notes/                                   Workspace/
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c
+$ cd Workspace/
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace
+$ ls
+'Git Repo'/   Installations/   Projects/   Software/
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace
+$ cd Git\ Repo/
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo (master)
+$ ls
+pandas/  sparkTutorial/
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo (master)
+$ git config --global user.name "getpiyoosh"
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo (master)
+$ git config --global user.email getpiyoosh@gmail.com
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo (master)
+$ git clone https://github.com/getpiyoosh/TestGit.git
+Cloning into 'TestGit'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo (master)
+$ ls
+pandas/  sparkTutorial/  TestGit/
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo (master)
+$ cd TestGit/
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ ls
+README.md
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ ls
+README.md  Test.txt
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ git add Test.txt
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Test.txt
+
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ git commit -m "1st Commit" Test.txt
+[master 930861c] 1st Commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test.txt
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/getpiyoosh/TestGit.git
+   02342be..930861c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ git commit -m "2nd Commit" Test.txt
+[master 16d5fb8] 2nd Commit
+ 1 file changed, 7 insertions(+)
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 284.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/getpiyoosh/TestGit.git
+   930861c..16d5fb8  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Piyoosh@ADMINIB-ERABA7C MINGW64 /c/Workspace/Git Repo/TestGit (master)
+$
